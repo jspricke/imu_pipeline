@@ -4,6 +4,7 @@ project(imu_transformer)
 find_package(catkin REQUIRED COMPONENTS
   message_filters
   nodelet
+  pluginlib
   roscpp
   sensor_msgs
   geometry_msgs

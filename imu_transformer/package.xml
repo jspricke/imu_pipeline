@@ -16,6 +16,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <build_depend>pluginlib</build_depend>
   <depend>geometry_msgs</depend>
   <depend>nodelet</depend>
   <depend>message_filters</depend>
@@ -29,7 +30,7 @@
   <exec_depend>tf</exec_depend>
 
   <test_depend>roslaunch</test_depend>
-  <test_depend>tf2_geometry_msgs</test_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
 
   <export>
     <nodelet plugin="${prefix}/nodelets.xml"/>
